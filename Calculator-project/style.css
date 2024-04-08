@@ -1,0 +1,93 @@
+ body {
+     font-family: "Cinzel", serif;
+     font-optical-sizing: auto;
+     font-weight: 900;
+     font-style: normal;
+     background-color: black;
+ }
+
+ h1 {
+     color: pink;
+     text-align: center;
+     font-family: "Raleway", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 700;
+     font-style: normal;
+     font-size: 55px;
+     margin-top: 15px;
+ }
+
+ .container {
+     text-align: center;
+     width: 350px;
+     height: 500px;
+     border: solid #FF10F0;
+     border-radius: 50px;
+     padding: 20px;
+     box-shadow: 0 0 20px #FF10F0,
+         0 0 20px #FF10F0,
+         0 0 20px#FF10F0;
+
+ }
+
+ .display {
+     border-radius: 25px;
+     width: 300px;
+     height: 100px;
+     border: solid #FF10F0;
+     padding: 10px;
+     text-align: end;
+     color: snow;
+     font-size: 30px;
+ }
+
+ .keys {
+     margin-left: -17px;
+ }
+
+ button {
+     margin: 7px;
+     width: 70px;
+     height: 50px;
+     border-radius: 15px;
+     background-color: black;
+     padding: auto;
+ }
+
+ .sign {
+     font-size: 30px;
+     font-weight: bolder;
+     color: black;
+     background-color: #74ee15;
+     box-shadow: 0 0 10px #74ee15,
+         0 0 30px #74ee15,
+         0 0 60px #74ee15;
+     border-color: lime;
+ }
+
+ .clear-sign {
+     font-size: 30px;
+     font-weight: bolder;
+     color: black;
+     background-color: #ffe700;
+     box-shadow: 0 0 10px #ffe700,
+         0 0 30px #ffe700,
+         0 0 60px #ffe700;
+     border-color: goldenrod;
+ }
+
+ .mathsign {
+     background-color: #00ffff;
+     box-shadow: 0 0 10px #00ffff,
+         0 0 30px #00ffff,
+         0 0 60px #00ffff;
+     border-color: aqua;
+ }
+
+ .numbers {
+     background-color: #f000ff;
+     box-shadow: 0 0 10px #f000ff,
+         0 0 30px #f000ff,
+         0 0 60px #f000ff;
+     border-color: lightpink;
+ }

@@ -1,0 +1,152 @@
+body {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    text-align: center;
+    background-color: black;
+}
+
+.container {
+    border: solid black;
+    background-color: #edb8e9;
+    text-align: center;
+    padding: 0;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-brand {
+    color: snow;
+}
+
+.nav-link {
+    color: snow;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.form-control {
+    width: 450px;
+    border: solid #FF10F0;
+    border-radius: 40px;
+    padding: 10px;
+    box-shadow: 0 0 20px #FF10F0,
+        0 0 20px #FF10F0,
+        0 0 20px#FF10F0;
+    margin-right: 40px;
+}
+
+.btn {
+    border: solid #FF10F0;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 0 20px #FF10F0,
+        0 0 20px #FF10F0,
+        0 0 20px#FF10F0;
+    background-color: #FF10F0;
+    width: 100px;
+}
+
+form {
+    margin-left: 180px;
+}
+
+.mood {
+    font-size: 35px;
+    word-wrap: wrap;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.description {
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 1068px) {
+    .form-control {
+        width: 90%;
+        max-width: none;
+        margin-left: 0;
+    }
+
+    form {
+        margin-left: 0;
+    }
+
+    .mood {
+        font-size: 50px;
+        word-wrap: wrap;
+    }
+
+    .cover {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+.range {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.viewmore {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.about {
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.services {
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.our-work {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-img-top {
+    width: 250px;
+    height: 190px;
+}
+
+.garden {
+    width: 220px;
+    height: 180px;
+}
+
+.closing {
+    border: solid orangered;
+    background-color: orangered;
+}
+
+.social {
+    width: 60px;
+}
+
+.socials {
+    text-align: center;
+}
