@@ -1,0 +1,231 @@
+body {
+  overflow-x: hidden;
+  font-family: "Truculenta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+  @media (max-width:900px) {
+    overflow-x: hidden;
+  }
+}
+
+.logo {
+  text-align: start;
+  border: 2px solid black;
+  background-color: black;
+}
+
+.intro {
+  font-size: 18px;
+  color: snow;
+
+  @media (max-width:900px) {
+    text-align: center;
+  }
+}
+
+.date {
+  font-size: 12px;
+  color: snow;
+}
+
+.cover {
+  border: 2px solid snow;
+  background-color: snow;
+
+
+  @media (max-width:600px) {
+    width: 150px;
+  }
+}
+
+.row {
+  align-items: center;
+  text-align: center;
+
+  @media (max-width:900px) {
+    text-align: start;
+  }
+}
+
+.quote1 {
+  font-size: 25px;
+  font-weight: 550;
+
+  @media (max-width:900px) {
+    font-size: 13px;
+  }
+}
+
+.name {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.bio {
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+  color: snow;
+
+  @media (max-width:900px) {
+    text-align: center;
+  }
+}
+
+.biography {
+  color: aliceblue;
+  padding: 10px;
+  margin: 5px;
+  margin-left: 250px;
+
+  @media (max-width:900px) {
+    margin-left: -5px;
+    overflow-x: hidden;
+  }
+}
+
+.timeline {
+  background-color: black;
+  border-width: 100px;
+}
+
+.heading {
+  color: #3500D3;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#timeline ul li {
+  position: relative;
+  width: 10px;
+  list-style: none;
+  margin: 0 auto;
+  padding-top: 50px;
+  background-color: orangered;
+}
+
+#timeline ul {
+  padding: 50px 0;
+}
+
+#timeline ul li .box {
+  position: relative;
+  bottom: 0;
+  width: 450px;
+  background-color: rgb(2, 2, 92);
+  color: burlywood;
+  box-shadow: 5px 5px 6px rgba(255, 205, 255, 0.8);
+  border-radius: 15px;
+}
+
+.title {
+  padding: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  color: black;
+  font-size: 20px;
+  background-color: orangered;
+}
+
+.year {
+  padding: 3px;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: navy;
+  color: orangered;
+  margin: 1px;
+}
+
+#timeline p {
+  padding: 3px 0 3px 3px;
+  color: burlywood;
+}
+
+.grad {
+  margin-left: 150px;
+}
+
+.testimonial {
+  font-style: italic;
+  color: orangered;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 500;
+}
+
+#timeline ul li:nth-child(even) .box {
+  left: 50px;
+}
+
+#timeline ul li:nth-child(odd) .box {
+  left: -490px;
+}
+
+.grad1 {
+  margin-left: -350px;
+}
+
+#timeline ul li i {
+  position: absolute;
+  left: 50%;
+  top: 20;
+  width: 50px;
+  height: 50px;
+  background: orangered;
+  transform: translateX(-50%);
+  border-radius: 50%;
+}
+
+#timeline .box:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  width: 0;
+  right: 0;
+  border-style: solid;
+}
+
+#timeline ul li:nth-child(even) .box:before {
+  left: -16px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent orangered;
+}
+
+#timeline ul li:nth-child(odd) .box:before {
+  right: -16px;
+  border-width: 8px 0px 8px 16px;
+  border-color: transparent orangered;
+}
+
+@media (max-width:900px) {
+  #timeline ul li i .box {
+    margin-left: -500px;
+    width: 15px;
+  }
+
+  #timeline ul li:nth-child(odd) .box {
+    left: 45px;
+  }
+
+  #timeline ul li:nth-child(odd) .box:before {
+    left: -16px;
+    border-width: 8px 16px 8px 0;
+  }
+
+  #timeline {
+    margin-left: -175px;
+  }
+
+  .box {
+    width: 20px;
+    height: 220px;
+    word-wrap: break-word;
+    border-width: 70px;
+  }
+
+}
